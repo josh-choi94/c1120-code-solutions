@@ -1,5 +1,5 @@
 .container {
-  max-width: 880px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -33,12 +33,4 @@
 
 img{
   width:100%;
-}
-
-.col-third > h2 {
-    width: 90%;
-}
-
-.col-third > p {
-    width:100%;
 }
