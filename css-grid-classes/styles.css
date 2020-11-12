@@ -1,0 +1,40 @@
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col-half {
+  width: 50%;
+}
+
+.col-third {
+  width: 33%;
+}
+
+.col-fourth {
+  width: 25%;
+}
+
+.col-half > img {
+  width: 100%;
+}
+
+.col-third > img {
+  width: 100%;
+}
+
+.col-fourth > img {
+  width: 100%;
+}
+
+.col-third > h2 {
+    width: 90%;
+}
+
+.col-third > p {
+    width:100%;
+}
