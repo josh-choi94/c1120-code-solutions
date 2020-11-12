@@ -19,7 +19,7 @@
   width: 25%;
 }
 
-.col-half > img {
+/* .col-half > img {
   width: 100%;
 }
 
@@ -29,6 +29,10 @@
 
 .col-fourth > img {
   width: 100%;
+} */
+
+img{
+  width:100%;
 }
 
 .col-third > h2 {
