@@ -16,7 +16,8 @@ a {
   display: flex;
   justify-content: space-around;
   padding-top: 20px;
-  padding-bottom: 60px;
+  padding-bottom:10px;
+ 
 }
 
 a {
@@ -35,7 +36,9 @@ a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(images/hero.jpg);
   background-size: cover;
-  margin-left: 100px;
+  margin-left: 50px;
+  margin-right:50px;
+  margin-top: 50px;
   height: 450px;
   padding: 50px;
   line-height: 25px;
@@ -49,7 +52,7 @@ a {
 .middle-section {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 85px;
   margin-left: 60px;
   margin-right: 60px;
@@ -78,7 +81,7 @@ a {
   justify-content: space-around;
   padding-top: 50px;
   padding-bottom: 35px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .col-third {
@@ -131,4 +134,20 @@ a {
   width: 100px;
   height: 40px;
   border-radius: 5%;
+}
+
+.mid-row{
+  background-color:rgb(220,220,220);
+  padding-top: 5px;
+  padding-bottom:5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.lower-button{
+  margin-top:25px;
+}
+
+.bottom-row{
+  background-color: rgb(220,220,220);
 }
