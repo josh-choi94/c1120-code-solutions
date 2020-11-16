@@ -33,7 +33,7 @@ a {
   color: gray;
 }
 .content {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(156, 156, 156, 0.548), rgba(0, 0, 0, 0.5)),
     url(images/hero.jpg);
   background-size: cover;
   margin-left: 50px;
