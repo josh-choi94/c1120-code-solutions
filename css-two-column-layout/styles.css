@@ -1,61 +1,49 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+  font-family: "Karla";
 }
-body{
-    width:1100px;
-    margin:auto;
-}
-
-
-
-.top-row{
-    text-align: center;
-    margin-top: 55px;
-    margin-bottom: 75px;
+body {
+  width: 1000px;
+  margin: 0 auto;
 }
 
-.middle-row{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+p {
+  line-height: 25px;
+}
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.top-content {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-.col-half{
-    display:flex;
-    flex-direction: column;
+.content-row {
+  flex-basis: 50%;
 }
 
-.img-wrapper{
-    display:flex;
-    
-    
+.content-col {
+  display: flex;
+  margin-bottom: 50px;
 }
 
-.button-container{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
 }
 
-/* .text-wrapper{
-    display:flex;
-    flex-direction: column;
-} */
-
-/* .top-p{
-    margin-top: -65px;
-    margin-left: 140px;
-    margin-bottom: 50px;
-    
+.col-right {
+  padding-right: 50px;
+  padding-left: 20px;
 }
 
-.lower-p{
-    margin-top: -85px;
-    margin-left: 140px;
-    
+button {
+  border: 1px solid #dd7973;
+  color: #dd7973;
+  background-color: transparent;
+  width: 120px;
+  height: 25px;
 }
-
-p{
-    line-height: 25px;
-} */
