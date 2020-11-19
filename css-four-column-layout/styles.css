@@ -5,7 +5,9 @@
 }
 
 p{
-  font-size: 14px;
+  font-size: 12px;
+  position: relative;
+  bottom: 17px;
 }
 
 .top-content {
