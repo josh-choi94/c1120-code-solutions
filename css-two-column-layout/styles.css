@@ -47,3 +47,8 @@ button {
   width: 120px;
   height: 25px;
 }
+
+img{
+  position: relative;
+  bottom: 20px;
+}
