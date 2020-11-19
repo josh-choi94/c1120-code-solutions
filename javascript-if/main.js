@@ -105,7 +105,7 @@ function isUnderFive(number) {
   console.log('categorizeAcidity 6:', categorizeAcidity(6));
   console.log('categorizeAciditiy 7', categorizeAcidity(7));
   console.log('categorizeAcidity 8:', categorizeAcidity(8));
-  console.log('categorizeAcidicty 15:', categorizeAcidity(15));
+  console.log('categorizeAcidicty 16:', categorizeAcidity(16));
   
   function introduceWarnerBro(name) {
     var result;
