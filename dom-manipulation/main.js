@@ -22,5 +22,5 @@ addEventListener('click', function (event) {
   }
 
   hot.className = 'hot-button ' + temp;
-  click.textContent = 'clicks' + count;
+  click.textContent = 'clicks: ' + count;
 });
